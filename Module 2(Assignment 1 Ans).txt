@@ -1,0 +1,55 @@
+                                      
+                                      Module 2
+                                  Python Assignment
+
+                                                              Bhuma Pujith Reddy
+                                                              321910302017
+
+ 1   Take two inputs from user and check whether they are equal or not.
+Ans: print ("Enter first number")
+     first = input()
+     print ("Enter second number")
+     second = input()
+     print (first == second)
+
+ 2.  Take 3 inputs from user and check :
+           all are equal
+           any of two are equal
+           ( use and or )
+Ans: print ("first number")
+     first = input()
+     print ("second number")
+     second = input()
+     print ("third number")
+     third = input()
+     all = first == second and second == third and third == first
+     print "All are equal:",all
+     any = first == second or second == third or third == first
+     print "Any of two are equal:",any
+
+ 3.  Take two number and check whether the sum is greater than 5, less than 5 or equal to 5.
+Ans: print ("Enter first number")
+     first = input()
+     print ("Enter second number")
+     second = input()
+     sum = first+second
+     print ("sum is greater than 5:",sum>5)
+     print ("sum is equal to 5:",sum==5)
+     print ("sum is lesser than 5:",sum<5)
+
+ 4.  Suppose passing marks of a subject is 35. Take input of marks from user and check whether it is greater than passing marks or not.
+Ans: pm = 35
+     marks = input()
+     print ("Marks is greater than passing marks:"),marks>pm
+
+ 5.  Write a Python function to find the Max of three numbers.
+Ans: num1 = 134
+     num2 = 120
+     num3 = 143
+     if (num1 >= num2) and (num1 >= num3):
+     largest = num1
+     elif (num2 >= num1) and (num2 >= num3):
+     largest = num2
+     else:
+     largest = num3
+     print("The largest number is", largest)
